@@ -43,7 +43,6 @@ async function convert_audio(input) {
     } catch (e) {
         console.log(e)
         console.log('convert_audio: ' + e)
-        throw e;
     }
 }
 //////////////////////////////////////////
